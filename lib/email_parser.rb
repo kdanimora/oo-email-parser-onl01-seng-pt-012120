@@ -5,7 +5,7 @@
 
 class EmailAddressParser
   
-  attr_accessor :
+  attr_accessor :EmailAddressParser
   @@all = []
   
   def inititialize(parse)
