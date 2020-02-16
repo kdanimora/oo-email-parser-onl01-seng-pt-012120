@@ -6,6 +6,9 @@
 class EmailAddressParser
   
   attr_accessor :Parser
+  
+  def initiliazie.Parser
+end 
 
   def self.new_from_csv(csv_data)
     rows = csv_data.split("\n")
