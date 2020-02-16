@@ -7,7 +7,8 @@ class EmailAddressParser
   
   attr_accessor :Parser
 
-  def self.new_from_cvs(csv_data)
+  def self = all 
+    @@all 
   end 
 
 end 
