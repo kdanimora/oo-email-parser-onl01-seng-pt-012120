@@ -6,11 +6,8 @@
 class EmailAddressParser
   
   attr_accessor :EmailAddressParser
-  @@all = []
-  
-  def inititialize(parse)
-    @parse = parse
-    
+
+  def self.new_from_cvs 
   end 
 
 end 
