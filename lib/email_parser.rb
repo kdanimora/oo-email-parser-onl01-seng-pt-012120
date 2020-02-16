@@ -7,8 +7,11 @@ class EmailAddressParser
   
   attr_accessor :Parser
 
-  def self.all 
-    @@all 
+  def self.new_from_csv(csv_data)
+    rows = csv_data.split("\n")
+    people = rows.collect do |row|
+      data = row.split(", ")
+      EmailAddressParser = data[0]
   end 
 
 
