@@ -15,7 +15,7 @@ class EmailAddressParser
       
       
       Parser.self.new 
-      
+      Parser.email
   end 
 
 
