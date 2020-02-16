@@ -11,7 +11,7 @@ class EmailAddressParser
     rows = csv_data.split("\n")
     people = rows.collect do |row|
       data = row.split(", ")
-      email = data[0]
+      email_addresses = data[0]
       
       
       parser.self.new 
