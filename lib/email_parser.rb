@@ -12,6 +12,10 @@ class EmailAddressParser
     people = rows.collect do |row|
       data = row.split(", ")
       email = data[0]
+      
+      
+      Parser.self.new 
+      
   end 
 
 
