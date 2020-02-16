@@ -20,7 +20,7 @@ class EmailAddressParser
   end 
   parse 
   end 
-  
-  
 end 
+
+csv_data 
 
