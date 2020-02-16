@@ -22,5 +22,5 @@ class EmailAddressParser
   end 
 end 
 
-csv_data = 
+csv_data = "avi@test.com", "arel@test.com"
 
