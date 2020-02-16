@@ -7,8 +7,12 @@ class EmailAddressParser
   
   attr_accessor :Parser
 
-  def self = all 
+  def self.all 
     @@all 
   end 
+
+
+
+
 
 end 
