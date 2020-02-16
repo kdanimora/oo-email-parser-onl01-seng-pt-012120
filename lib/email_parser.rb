@@ -14,8 +14,8 @@ class EmailAddressParser
       email = data[0]
       
       
-      Parser.self.new 
-      Parser.email
+      parser.self.new 
+      parser.email = email
   end 
 
 
